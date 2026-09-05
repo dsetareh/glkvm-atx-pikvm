@@ -1,0 +1,8 @@
+kvmd:
+    atx:
+        type: glatx
+        device: /dev/glatx
+        # Optional, defaults shown:
+        # request_timeout: 1.0     # serial req/ack timeout, seconds
+        # force_click_delay: 6.5   # long-press duration, seconds (sent as POWER_SW_FORCE <ms>)
+        # poll_interval: 2.0       # power-state poll, seconds (0 disables background polling)

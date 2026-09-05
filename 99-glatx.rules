@@ -1,0 +1,4 @@
+# GL.iNet GL-ATXPC power control board (KVM-ATX-V1.0)
+# CH55x CDC-ACM firmware, pid.codes VID 1209 / product c550.
+# Gives the board a stable device name independent of enumeration order.
+SUBSYSTEM=="tty", ATTRS{idVendor}=="1209", ATTRS{idProduct}=="c550", SYMLINK+="glatx"
